@@ -1,0 +1,336 @@
+body{
+    background-image:url("flat-lay-workstation-with-copy-space-laptop.jpg");
+    background-size:cover;
+
+}
+h1,h2,h3{
+    color: black;
+}
+.navtag{
+    display: flex;
+     float: right;
+    margin-left:50px;
+    margin-top:10px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    position: relative;
+    right:800px;
+    text-transform: uppercase;
+    color: #30CFD0;
+    font-weight:bold;
+    font-family:'Pacifico', cursive;
+}
+.nav{
+    text-decoration: none;
+    margin:10px;
+    color:fuchsia;
+    font-weight: bold;
+    font-size:x-large;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.name {
+    margin-right:500px;
+    margin-bottom:300px;
+}
+#icons{
+    margin-top:100px;
+}
+#main-name{
+    color:aqua;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name h1 {
+    font-size: 2.5rem;
+    animation: fadeInUp 1s ease forwards;
+}
+
+.name p {
+    font-size: 1.5rem;
+    color:blanchedalmond;
+    animation: slideInRight 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.col1, .col2, .col3 {
+    background:transparent;
+    border-radius:30px;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+    transition: transform 0.10s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.1);
+    
+}
+
+.col1:hover, .col2:hover, .col3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.2);
+}
+
+ h1, h2, h3, span {
+    margin: 10px;
+}
+
+.col1 h1,.col2 h1, .col3 h1 {
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    color: #30CFD0;
+}
+
+.col1 h2, .col2 h2, .col3 h2 {
+    font-size:30px;
+    margin-left:20px;
+    font-weight: bold;
+    font-style: oblique;
+    color:chocolate;
+}
+b{
+    color:white;
+}
+.col1 h3, .col2 h3, .col3 h3 {
+    font-size:30px;
+    margin-left:20px;
+    font-weight: bold;
+    font-style: oblique;
+    color:cornflowerblue;
+}
+
+.col1 span, .col2 span, .col3 span {
+    display: block;
+    font-size:30px;
+    color:greenyellow;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 20px;
+}
+.colleges{
+    position: relative;
+    top:80px;
+    left:400px;
+    margin-right:1000px;
+}
+.allinterns {
+    position: relative;
+    top:80px;
+    top:80px;
+    left:400px;
+    margin-right:1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.interns {
+    background:transparent;
+    border-radius: 15px;
+    display: flex;
+    padding: 25px;
+    margin-bottom: 30px;
+    width:100%;
+    height:20vh;
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.interns img{
+    margin-left:100px;
+    height:20vh;
+    width:70%;
+    border-radius:20px;
+}
+.interns:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    margin: 0;
+    color: #fff;
+}
+
+.interns h1 {
+    font-size:35px;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    color: #30CFD0;
+}
+
+.interns h2 {
+    font-size:30px;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight: bold;
+    font-style: oblique;
+    color:chocolate;
+}
+.interns h3{
+    font-size:30px;
+    margin-left:20px;
+    font-weight: bold;
+    font-style: oblique;
+    color:cornflowerblue;
+}
+.Skillsset{
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    position: relative;
+    top:80px;
+    margin-left: 100px;
+    flex-direction: column;
+}
+.list1,.list2,.list3{
+    display: flex;
+}
+.list img{
+    border-radius:20px;
+    height:20vh;
+    margin: 30px;
+}
+.list img:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.2);
+}
+.Others{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top:20px;
+    margin-left:500px;
+    
+}
+.certificates, .Achivements, .Publications {
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    width:50%;
+    height:20vh;
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.certificates:hover, .Achivements:hover, .Publications:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.certificates h1, .Achivements h1, .Publications h1 {
+    font-size:35px;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    color: #30CFD0;
+}
+.certificates{
+    font-size:30px;
+    height:25vh;
+    margin-bottom:20px;
+    font-weight: bold;
+    font-style: oblique;
+    color:chocolate;
+}
+.Achivements{
+    font-size:30px;
+    height:25vh;
+    margin-bottom:20px;
+    font-weight: bold;
+    font-style: oblique;
+    color:chocolate;
+}
+.Publications a{
+    text-decoration: none;
+    font-size:x-large;
+    color:greenyellow;
+    float:right;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.projects {
+    display:flex;
+    flex-direction: column;
+    margin-left:300px;
+    margin-right:300px;
+    gap:50px;
+}
+
+.projects > div {
+    background:transparent;
+    border-radius: 15px;
+    padding: 25px;
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.1);
+}
+
+.projects > div:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.2);
+}
+
+.projects h1 {
+    font-size:40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:10px;
+    font-style: oblique;
+    color:greenyellow;
+}
+.projects h2{
+    font-size:35px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 10px;
+    color:red;
+}
+
+.projects img {
+    width:50%;
+    height:40vh;
+    margin-bottom:10px;
+    border-radius:50px;
+}
+.links{
+    display: flex;
+    gap:10px;
+}
+.links a{
+    text-decoration: none;
+    font-size: x-large;
+    color:chartreuse;
+}
+.project2 img,.project4 img{
+    margin-left:400px;
+}
